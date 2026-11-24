@@ -221,7 +221,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
-
 # Model weights
 *.pt
 *.pth
@@ -234,10 +233,13 @@ __marimo__/
 models/
 checkpoints/
 saved_models/
+saved_summary_model/
+llms/
 
 # Python
 __pycache__/
 *.pyc
 venv/
+.venv/
 .env
 .ipynb_checkpoints/
