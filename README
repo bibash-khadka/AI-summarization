@@ -1,0 +1,27 @@
+# T5 Dialogue Summarizer
+
+An NLP project that uses a fine-tuned T5 (Text-to-Text Transfer Transformer) model to generate concise summaries from conversational dialogues.
+
+## Features
+- Dialogue preprocessing and cleaning
+- Fine-tuned T5 model using the SAMSum dataset
+- FastAPI backend for inference
+- Simple web interface for submitting dialogues and viewing generated summaries
+- Text Summarization
+
+## Tech Stack
+- Python
+- PyTorch
+- Hugging Face Transformers
+- T5
+- FastAPI
+- HTML, CSS, JavaScript
+
+## Project Status
+Learning project – actively developing and improving.
+
+## Future Improvements
+- ROUGE and BERTScore evaluation
+- Model performance optimization
+- Improved summary quality
+- Deployment and API improvements

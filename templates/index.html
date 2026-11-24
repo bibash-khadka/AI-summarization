@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Text Summarizer | Hugging Face</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <header class="header">
+            <div class="logo">AI SUMMARIZER</div>
+
+            <h1>Text <span>Summarizer</span></h1>
+
+            <p class="subtitle">
+                Powered by Hugging Face Transformers
+            </p>
+        </header>
+
+        <section class="input-section">
+
+            <form id="summarization-form">
+
+                <label for="dialogue-input">
+                    Write or paste your content
+                </label>
+
+                <textarea
+                    id="dialogue-input"
+                    placeholder="Paste your article, paragraph, or any long text here..."
+                    required
+                ></textarea>
+
+                <div class="input-footer">
+                    <span id="wordCount">0 words</span>
+                    <span>Enter your text to get started</span>
+                </div>
+
+                <button type="submit" id="summarizeBtn">
+                    <span id="buttonText">Generate Summary</span>
+                    <span class="arrow">→</span>
+                </button>
+
+                <p id="errorMessage" class="error"></p>
+
+            </form>
+
+        </section>
+
+        <section class="result-section" id="resultSection">
+
+            <div class="result-header">
+
+                <div>
+                    <span class="result-tag">AI GENERATED</span>
+                    <h2>Your Summary</h2>
+                </div>
+
+                <button type="button" id="copyBtn" class="copy-btn">
+                    Copy
+                </button>
+
+            </div>
+
+            <div class="summary-content" id="summaryContent">
+                Your summarized content will appear here.
+            </div>
+
+        </section>
+
+        <footer>
+            <p> ·· Powered by Hugging Face ··</p>
+        </footer>
+
+    </main>
+
+    <script src="../static/script.js"></script>
+
+</body>
+</html>
